@@ -22,11 +22,8 @@ I successfully queried the battery level on Windows using HID communication.
 
 The protocol was tested on real hardware using a standalone C++ application. Battery percentage was retrieved successfully.
 
-I noticed that HyperX headsets are already supported in `src/drivers/hyperx.cpp`, while HyperX Pulsefire mice are currently listed as unsupported.
+---
+# Credits
 
-I believe this device could be integrated into the existing HyperX driver as a separate mouse model.
-
-I can provide the HID diagnostic output and help test the implementation.
-
-Would you be interested in accepting a contribution for this device?
+[Wireless Device Battery Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor/tree/main) : krisgfx9
 
