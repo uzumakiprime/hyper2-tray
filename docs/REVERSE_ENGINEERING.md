@@ -185,28 +185,5 @@ To reproduce the observed battery query:
 7.  Interpret byte index `2` as the battery percentage.
 8.  Compare the result with HyperX NGENUITY.
 
-## 9. Evidence screenshots
 
-Place screenshots in `docs/images/` and use the suggested filenames
-below.
 
-  -----------------------------------------------------------------------
-  Suggested file                      What it should show
-  ----------------------------------- -----------------------------------
-  `hid-interface-list.png`            Diagnostic output showing all three
-                                      `03F0:0F98` interfaces and the
-                                      vendor-defined collection
-
-  `battery-match.png`                 The standalone tray application and
-                                      HyperX NGENUITY showing the same
-                                      battery percentage
-
-  `protocol-code.png`                 The relevant source-code section
-                                      showing the request bytes,
-                                      response-header check and
-                                      `response[2]` extraction
-  -----------------------------------------------------------------------
-
-Screenshots should show only the relevant application/output. Crop out
-personal information, unrelated devices, serial numbers and other
-private details where applicable.
