@@ -1,7 +1,6 @@
 
 # Device support request: HyperX Pulsefire Haste 2 Wireless
 
-I would like to contribute support for the HyperX Pulsefire Haste 2 Wireless mouse.
 Find the exe in release.
 
 **Device information:**
@@ -22,6 +21,15 @@ I successfully queried the battery level on Windows using HID communication.
 - Battery percentage: byte index 2 (zero-based)
 
 The protocol was tested on real hardware using a standalone C++ application. Battery percentage was retrieved successfully.
+
+## Reverse-engineering documentation
+
+The HID battery-query investigation and protocol reference are documented here:
+
+- [Reverse-engineering notes](docs/REVERSE_ENGINEERING.md)
+- [HID battery protocol reference](docs/HID_PROTOCOL.md)
+
+The documented protocol was tested on a physical HyperX Pulsefire Haste 2 Wireless using its 2.4 GHz receiver. The battery percentage returned by the application matched HyperX NGENUITY during testing.
 
 ---
 # Credits
