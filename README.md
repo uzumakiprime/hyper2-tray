@@ -2,6 +2,7 @@
 # Device support request: HyperX Pulsefire Haste 2 Wireless
 
 I would like to contribute support for the HyperX Pulsefire Haste 2 Wireless mouse.
+Find the exe in release.
 
 **Device information:**
 - Device: HyperX Pulsefire Haste 2 Wireless
